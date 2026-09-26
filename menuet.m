@@ -615,7 +615,7 @@ static NSAttributedString *MenuetBuildAttributedTitle(NSString *text,
 //
 // The insets reproduce where AppKit puts a native title, so a static row
 // lines up with the ordinary rows around it.
-static const CGFloat kMenuetLabelPadLeft = 24;  // menu edge + state column
+static const CGFloat kMenuetLabelPadLeft = 22;  // menu edge + state column
 static const CGFloat kMenuetLabelPadRight = 20;
 static const CGFloat kMenuetLabelMinHeight = 22; // a native row at 14pt
 
